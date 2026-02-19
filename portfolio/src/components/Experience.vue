@@ -150,6 +150,22 @@ const jobs = [
     tech: ['C#', '.NET', 'WPF', 'DevExpress', 'SQL Server', 'MVVM'],
   },
   {
+    title: 'ICT Trainer / TESDA Instructor',
+    company: 'Christian Academy in Davao Oriental Technological Colleges Inc.',
+    location: 'Davao Oriental, Philippines',
+    period: 'Nov 2021 — Oct 2023',
+    current: false,
+    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 6 3 6 3s6-1 6-3v-5"/></svg>',
+    description: 'Served as a TESDA-accredited ICT Trainer at Christian Academy in Davao Oriental Technological Colleges Inc., teaching Hybrid Application Development and Android Application Development. Equipped students with industry-relevant skills in mobile and cross-platform development under a two-year contract.',
+    highlights: [
+      'Taught Hybrid Application Development — covering cross-platform frameworks and modern web-to-mobile workflows',
+      'Delivered Android Application Development courses — guiding students through the full Android development lifecycle',
+      'Designed curriculum and hands-on lab exercises aligned with TESDA competency standards for ICT',
+      'Mentored students in building real-world mobile applications as capstone projects',
+    ],
+    tech: ['Android', 'Java', 'Hybrid Apps', 'HTML/CSS', 'JavaScript', 'Mobile Development'],
+  },
+  {
     title: 'Software Engineer',
     company: 'Provident Marketing & Mobile Enterprises Inc.',
     location: 'Philippines',
