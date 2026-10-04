@@ -16,7 +16,7 @@
         </li>
         <li>
           <a href="https://www.upwork.com/freelancers/~01f366391ca31798ed" 
-             target="_blank" class="nav-cta">
+             target="_blank" class="nav-cta" @click="track('Hire Me')">
             Hire Me
           </a>
         </li>
@@ -33,6 +33,7 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import { track } from '../analytics'
 
 const isScrolled = ref(false)
 const isHidden = ref(false)

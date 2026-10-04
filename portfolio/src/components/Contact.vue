@@ -22,7 +22,8 @@
         <div class="social-grid">
           <a v-for="social in socials" :key="social.name" 
              :href="social.url" target="_blank" 
-             class="social-card" :class="social.class">
+             class="social-card" :class="social.class"
+             @click="track(social.name, { location: 'contact' })">
             <div class="social-icon" v-html="social.icon"></div>
             <div class="social-info">
               <h4>{{ social.name }}</h4>
@@ -37,6 +38,8 @@
 </template>
 
 <script setup>
+import { track } from '../analytics'
+
 const socials = [
   {
     name: 'LinkedIn',
